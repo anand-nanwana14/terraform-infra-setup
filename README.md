@@ -1,4 +1,5 @@
-**1. Project’s Title **
+**1. Project’s Title **  
+
 “Terraform Infra Setup”
 
 Seting up a infra using terraform
@@ -8,7 +9,8 @@ NAT gateway & IGW
 NAT instance & Jumpserver
 S3 bucket that stores tfstate files
 
-2. Project Description
+2. **Project Description**
+   
 Creating a infra for AWS in which we will take internet access in NAT instance using NAT Gateway.
 
 a.VPC Creation: The project starts by creating a Virtual Private Cloud (VPC) on AWS. The VPC provides a logically isolated section of the AWS cloud where you can launch resources.
@@ -29,7 +31,7 @@ Internet Gateway: An internet gateway is attached to the VPC, enabling communica
 NAT Gateway: A Network Address Translation (NAT) gateway is deployed to allow private instances in the VPC to initiate outbound connections to the internet while preventing inbound traffic from reaching them directly.
 Route Tables: Route tables are configured to direct traffic between subnets and internet gateways or NAT gateways appropriately.
 
-3.How to Run the Project
+3.**How to Run the Project**
 
 1.Clone this repo onto your machine.  
 
