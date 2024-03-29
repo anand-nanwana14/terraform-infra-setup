@@ -31,9 +31,15 @@ Route Tables: Route tables are configured to direct traffic between subnets and 
 
 3.How to Run the Project
 
-Clone this repo onto your machine.
-Change Variables as per your need.
-Export Your Access & Secret Keys in your machine.
-Use command “terraform init” to initialize.
-Use Command “terraform plan” to view changes.
-Use Command “terraform apply” to apply changes or to setup your infra.
+1.Clone this repo onto your machine.  
+
+2.Change Variables as per your need.  
+
+3.Export Your Access & Secret Keys in your machine.  
+
+4.Use command “terraform init” to initialize.  
+
+5.Use Command “terraform plan” to view changes.  
+
+6.Use Command “terraform apply” to apply changes or to setup your infra.  
+
